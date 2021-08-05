@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C243DAF126483531000545CD /* DailyMinuteCountdownAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C243DAF026483531000545CD /* DailyMinuteCountdownAppApp.swift */; };
+		C243DAF326483531000545CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C243DAF226483531000545CD /* ContentView.swift */; };
+		C243DAF526483532000545CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C243DAF426483532000545CD /* Assets.xcassets */; };
+		C243DAF826483532000545CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C243DAF726483532000545CD /* Preview Assets.xcassets */; };
+		C243DB0426483532000545CD /* DailyMinuteCountdownAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C243DB0326483532000545CD /* DailyMinuteCountdownAppTests.swift */; };
+		C243DB0F26483532000545CD /* DailyMinuteCountdownAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C243DB0E26483532000545CD /* DailyMinuteCountdownAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C243DB0026483532000545CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C243DAE526483531000545CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C243DAEC26483531000545CD;
+			remoteInfo = DailyMinuteCountdownApp;
+		};
+		C243DB0B26483532000545CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C243DAE526483531000545CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C243DAEC26483531000545CD;
+			remoteInfo = DailyMinuteCountdownApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C243DAED26483531000545CD /* DailyMinuteCountdownApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyMinuteCountdownApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C243DAF026483531000545CD /* DailyMinuteCountdownAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMinuteCountdownAppApp.swift; sourceTree = "<group>"; };
+		C243DAF226483531000545CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C243DAF426483532000545CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C243DAF726483532000545CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C243DAF926483532000545CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C243DAFA26483532000545CD /* DailyMinuteCountdownApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailyMinuteCountdownApp.entitlements; sourceTree = "<group>"; };
+		C243DAFF26483532000545CD /* DailyMinuteCountdownAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyMinuteCountdownAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C243DB0326483532000545CD /* DailyMinuteCountdownAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMinuteCountdownAppTests.swift; sourceTree = "<group>"; };
+		C243DB0526483532000545CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C243DB0A26483532000545CD /* DailyMinuteCountdownAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyMinuteCountdownAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C243DB0E26483532000545CD /* DailyMinuteCountdownAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMinuteCountdownAppUITests.swift; sourceTree = "<group>"; };
+		C243DB1026483532000545CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C243DAEA26483531000545CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C243DAFC26483532000545CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C243DB0726483532000545CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C243DAE426483531000545CD = {
+			isa = PBXGroup;
+			children = (
+				C243DAEF26483531000545CD /* DailyMinuteCountdownApp */,
+				C243DB0226483532000545CD /* DailyMinuteCountdownAppTests */,
+				C243DB0D26483532000545CD /* DailyMinuteCountdownAppUITests */,
+				C243DAEE26483531000545CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C243DAEE26483531000545CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C243DAED26483531000545CD /* DailyMinuteCountdownApp.app */,
+				C243DAFF26483532000545CD /* DailyMinuteCountdownAppTests.xctest */,
+				C243DB0A26483532000545CD /* DailyMinuteCountdownAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C243DAEF26483531000545CD /* DailyMinuteCountdownApp */ = {
+			isa = PBXGroup;
+			children = (
+				C243DAF026483531000545CD /* DailyMinuteCountdownAppApp.swift */,
+				C243DAF226483531000545CD /* ContentView.swift */,
+				C243DAF426483532000545CD /* Assets.xcassets */,
+				C243DAF926483532000545CD /* Info.plist */,
+				C243DAFA26483532000545CD /* DailyMinuteCountdownApp.entitlements */,
+				C243DAF626483532000545CD /* Preview Content */,
+			);
+			path = DailyMinuteCountdownApp;
+			sourceTree = "<group>";
+		};
+		C243DAF626483532000545CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C243DAF726483532000545CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C243DB0226483532000545CD /* DailyMinuteCountdownAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C243DB0326483532000545CD /* DailyMinuteCountdownAppTests.swift */,
+				C243DB0526483532000545CD /* Info.plist */,
+			);
+			path = DailyMinuteCountdownAppTests;
+			sourceTree = "<group>";
+		};
+		C243DB0D26483532000545CD /* DailyMinuteCountdownAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C243DB0E26483532000545CD /* DailyMinuteCountdownAppUITests.swift */,
+				C243DB1026483532000545CD /* Info.plist */,
+			);
+			path = DailyMinuteCountdownAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C243DAEC26483531000545CD /* DailyMinuteCountdownApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C243DB1326483532000545CD /* Build configuration list for PBXNativeTarget "DailyMinuteCountdownApp" */;
+			buildPhases = (
+				C243DAE926483531000545CD /* Sources */,
+				C243DAEA26483531000545CD /* Frameworks */,
+				C243DAEB26483531000545CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyMinuteCountdownApp;
+			productName = DailyMinuteCountdownApp;
+			productReference = C243DAED26483531000545CD /* DailyMinuteCountdownApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C243DAFE26483532000545CD /* DailyMinuteCountdownAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C243DB1626483532000545CD /* Build configuration list for PBXNativeTarget "DailyMinuteCountdownAppTests" */;
+			buildPhases = (
+				C243DAFB26483532000545CD /* Sources */,
+				C243DAFC26483532000545CD /* Frameworks */,
+				C243DAFD26483532000545CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C243DB0126483532000545CD /* PBXTargetDependency */,
+			);
+			name = DailyMinuteCountdownAppTests;
+			productName = DailyMinuteCountdownAppTests;
+			productReference = C243DAFF26483532000545CD /* DailyMinuteCountdownAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C243DB0926483532000545CD /* DailyMinuteCountdownAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C243DB1926483532000545CD /* Build configuration list for PBXNativeTarget "DailyMinuteCountdownAppUITests" */;
+			buildPhases = (
+				C243DB0626483532000545CD /* Sources */,
+				C243DB0726483532000545CD /* Frameworks */,
+				C243DB0826483532000545CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C243DB0C26483532000545CD /* PBXTargetDependency */,
+			);
+			name = DailyMinuteCountdownAppUITests;
+			productName = DailyMinuteCountdownAppUITests;
+			productReference = C243DB0A26483532000545CD /* DailyMinuteCountdownAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C243DAE526483531000545CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C243DAEC26483531000545CD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C243DAFE26483532000545CD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C243DAEC26483531000545CD;
+					};
+					C243DB0926483532000545CD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C243DAEC26483531000545CD;
+					};
+				};
+			};
+			buildConfigurationList = C243DAE826483531000545CD /* Build configuration list for PBXProject "DailyMinuteCountdownApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C243DAE426483531000545CD;
+			productRefGroup = C243DAEE26483531000545CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C243DAEC26483531000545CD /* DailyMinuteCountdownApp */,
+				C243DAFE26483532000545CD /* DailyMinuteCountdownAppTests */,
+				C243DB0926483532000545CD /* DailyMinuteCountdownAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C243DAEB26483531000545CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C243DAF826483532000545CD /* Preview Assets.xcassets in Resources */,
+				C243DAF526483532000545CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C243DAFD26483532000545CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C243DB0826483532000545CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C243DAE926483531000545CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C243DAF326483531000545CD /* ContentView.swift in Sources */,
+				C243DAF126483531000545CD /* DailyMinuteCountdownAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C243DAFB26483532000545CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C243DB0426483532000545CD /* DailyMinuteCountdownAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C243DB0626483532000545CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C243DB0F26483532000545CD /* DailyMinuteCountdownAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C243DB0126483532000545CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C243DAEC26483531000545CD /* DailyMinuteCountdownApp */;
+			targetProxy = C243DB0026483532000545CD /* PBXContainerItemProxy */;
+		};
+		C243DB0C26483532000545CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C243DAEC26483531000545CD /* DailyMinuteCountdownApp */;
+			targetProxy = C243DB0B26483532000545CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C243DB1126483532000545CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C243DB1226483532000545CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C243DB1426483532000545CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DailyMinuteCountdownApp/DailyMinuteCountdownApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyMinuteCountdownApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C5U2J2X3EH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DailyMinuteCountdownApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monactor.DailyMinuteCountdownApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C243DB1526483532000545CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DailyMinuteCountdownApp/DailyMinuteCountdownApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DailyMinuteCountdownApp/Preview Content\"";
+				DEVELOPMENT_TEAM = C5U2J2X3EH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DailyMinuteCountdownApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monactor.DailyMinuteCountdownApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C243DB1726483532000545CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5U2J2X3EH;
+				INFOPLIST_FILE = DailyMinuteCountdownAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monactor.DailyMinuteCountdownAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyMinuteCountdownApp.app/Contents/MacOS/DailyMinuteCountdownApp";
+			};
+			name = Debug;
+		};
+		C243DB1826483532000545CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5U2J2X3EH;
+				INFOPLIST_FILE = DailyMinuteCountdownAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monactor.DailyMinuteCountdownAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyMinuteCountdownApp.app/Contents/MacOS/DailyMinuteCountdownApp";
+			};
+			name = Release;
+		};
+		C243DB1A26483532000545CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5U2J2X3EH;
+				INFOPLIST_FILE = DailyMinuteCountdownAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monactor.DailyMinuteCountdownAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DailyMinuteCountdownApp;
+			};
+			name = Debug;
+		};
+		C243DB1B26483532000545CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5U2J2X3EH;
+				INFOPLIST_FILE = DailyMinuteCountdownAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monactor.DailyMinuteCountdownAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DailyMinuteCountdownApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C243DAE826483531000545CD /* Build configuration list for PBXProject "DailyMinuteCountdownApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C243DB1126483532000545CD /* Debug */,
+				C243DB1226483532000545CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C243DB1326483532000545CD /* Build configuration list for PBXNativeTarget "DailyMinuteCountdownApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C243DB1426483532000545CD /* Debug */,
+				C243DB1526483532000545CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C243DB1626483532000545CD /* Build configuration list for PBXNativeTarget "DailyMinuteCountdownAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C243DB1726483532000545CD /* Debug */,
+				C243DB1826483532000545CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C243DB1926483532000545CD /* Build configuration list for PBXNativeTarget "DailyMinuteCountdownAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C243DB1A26483532000545CD /* Debug */,
+				C243DB1B26483532000545CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C243DAE526483531000545CD /* Project object */;
+}
